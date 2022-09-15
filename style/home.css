@@ -8,18 +8,18 @@ body {
     margin-top:25%;
     margin-right: 50%;
     margin-bottom: 25%;
-    margin-left: 505
+    margin-left: 505;
+    background-color: rgb(84, 130, 173);
 }
 header {
     text-align: center;
     color: white;
+    background-color: rgb(199, 84, 136);
 }
 nav {
-    position:fixed;
+    position: sticky;
     font-size: inherit;
-    top: 1%;
-    left: 5%;
-    height: 100%;
+    background-color: rgb(54, 112, 50);
 }
 a {
     color: inherits;
@@ -27,4 +27,5 @@ a {
 }
 p {
     margin: 10%;
+    background-color: rgb(206, 169, 126);
 }
