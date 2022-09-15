@@ -4,11 +4,20 @@ html {
     font-family: Calibri, sans-serif;
     background-color: rgb(61, 39, 65);
 }
-
+body {
+    margin: auto;
+}
+header {
+    text-align: center;
+    color: white;
+}
 nav {
     position:fixed;
     font-size: 16px;
     top: 1%;
     left: 5%;
     height: 100%;
+}
+p {
+    margin: auto;
 }
