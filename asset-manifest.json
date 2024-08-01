@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jasmine-lai.github.io/static/css/main.e6c13ad2.css",
+    "main.js": "/jasmine-lai.github.io/static/js/main.128de398.js",
+    "static/js/453.cbaf94b6.chunk.js": "/jasmine-lai.github.io/static/js/453.cbaf94b6.chunk.js",
+    "index.html": "/jasmine-lai.github.io/index.html",
+    "main.e6c13ad2.css.map": "/jasmine-lai.github.io/static/css/main.e6c13ad2.css.map",
+    "main.128de398.js.map": "/jasmine-lai.github.io/static/js/main.128de398.js.map",
+    "453.cbaf94b6.chunk.js.map": "/jasmine-lai.github.io/static/js/453.cbaf94b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.128de398.js"
+  ]
+}
