@@ -3,6 +3,10 @@ import { css } from '@emotion/react';
 export const headerName = css({
   fontSize: '60px',
   fontWeight: '500',
+
+  "@media (max-width: 600px)": {
+    fontSize: '40px',
+  },
 });
 
 export const navBar = css({
@@ -16,4 +20,9 @@ export const navItem = css({
   fontSize: '20px',
   fontWeight: '500',
   textDecoration: 'none',
+
+  "@media (max-width: 600px)": {
+    fontSize: '16px',
+    marginLeft: 0,
+  },
 });

@@ -18,8 +18,12 @@ export const appContainer = css({
   maxWidth: '60vw',
   display: 'flex',
   flexDirection: 'column',
-  //background: 'white',
   padding: '20px',
+
+  "@media (max-width: 600px)": {
+    maxHeight: '75vh',
+    maxWidth: '75vw',
+  },
 });
 
 export const headerContainer = css({
@@ -27,8 +31,23 @@ export const headerContainer = css({
   display: 'flex',
   flexDirection: 'row',
   gap: '2vw',
+
+  "@media (max-width: 600px)": {
+    flexDirection: 'column',
+  },
 });
 
 export const sectionContainer = css({
+  height: '100%',
+  maxHeight: '100%',
   padding: '10px',
+
+  "@media (max-width: 600px)": {
+    overflow: 'auto',
+  },
 });
+
+export const contactIcon = css({
+  margin: '20px',
+  marginTop: '10px',
+})

@@ -1,9 +1,12 @@
 import { css } from '@emotion/react'
 
 export const experienceList = css({
+  height: '40vh',
+  maxHeight: '40vh',
   paddingTop: '10px',
+  marginBottom: '20px',
   listStyleType: 'none',
-  overflowY: 'auto',
+  overflow: 'auto',
 });
 
 export const experienceItem = css({
