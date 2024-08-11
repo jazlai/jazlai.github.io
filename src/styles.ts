@@ -50,4 +50,4 @@ export const sectionContainer = css({
 export const contactIcon = css({
   margin: '20px',
   marginTop: '10px',
-})
+});

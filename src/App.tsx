@@ -46,20 +46,18 @@ const App: React.FC = () => {
         </div>
       </div>
       <div>
-        <ul>
-          <a href='mailto:lai.jas@northeastern.edu' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none', color: 'inherit' }}>
-            <FontAwesomeIcon icon={faEnvelope} css={contactIcon} />
-          </a>
-          <a href='https://linkedin.com/in/jasminelai03/' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none', color: 'inherit' }}>
-            <FontAwesomeIcon icon={faLinkedin} css={contactIcon} />
-          </a>
-          <a href='https://github.com/jasmine-lai' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none', color: 'inherit' }}>
-            <FontAwesomeIcon icon={faGithub} css={contactIcon}  />
-          </a>
-          <a href='/resume.pdf' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none', color: 'inherit' }}>
-            <FontAwesomeIcon icon={faFile} css={contactIcon} />
-          </a>
-        </ul>
+        <a href='mailto:lai.jas@northeastern.edu' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none', color: 'inherit' }}>
+          <FontAwesomeIcon icon={faEnvelope} css={contactIcon} />
+        </a>
+        <a href='https://linkedin.com/in/jasminelai03/' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none', color: 'inherit' }}>
+          <FontAwesomeIcon icon={faLinkedin} css={contactIcon} />
+        </a>
+        <a href='https://github.com/jasmine-lai' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none', color: 'inherit' }}>
+          <FontAwesomeIcon icon={faGithub} css={contactIcon}  />
+        </a>
+        <a href='/resume.pdf' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none', color: 'inherit' }}>
+          <FontAwesomeIcon icon={faFile} css={contactIcon} />
+        </a>
      </div>
     </div>
   );

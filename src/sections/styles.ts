@@ -7,6 +7,10 @@ export const experienceList = css({
   marginBottom: '20px',
   listStyleType: 'none',
   overflow: 'auto',
+
+  "@media (max-width: 600px)": {
+    marginLeft: '-40px',
+  },
 });
 
 export const experienceItem = css({
