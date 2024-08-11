@@ -35,14 +35,14 @@ const Experience: React.FC = () => {
             </li>
           );
         })}
+        <a 
+          href='#' 
+          css={teachingLink} 
+          onClick={() => setActiveSection('teaching')} 
+        >
+          → teaching experience
+        </a>
       </ul>
-      <a 
-        href='#' 
-        css={teachingLink} 
-        onClick={() => setActiveSection('teaching')} 
-      >
-        → teaching experience
-      </a>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import { css } from '@emotion/react'
 
 export const experienceList = css({
   height: '40vh',
-  maxHeight: '40vh',
+  maxHeight: '100%',
   paddingTop: '10px',
   marginBottom: '20px',
   listStyleType: 'none',

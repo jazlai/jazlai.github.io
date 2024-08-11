@@ -32,7 +32,7 @@ export const headerContainer = css({
   flexDirection: 'row',
   gap: '2vw',
 
-  "@media (max-width: 600px)": {
+  "@media (max-width: 1000px)": {
     flexDirection: 'column',
   },
 });

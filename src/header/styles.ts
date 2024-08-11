@@ -4,8 +4,12 @@ export const headerName = css({
   fontSize: '60px',
   fontWeight: '500',
 
-  "@media (max-width: 600px)": {
+  "@media (max-width: 700px)": {
     fontSize: '40px',
+  },
+
+  "@media (maxWidth: 1000px)": {
+    fontSize: '50px',
   },
 });
 
