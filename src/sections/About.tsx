@@ -10,7 +10,7 @@ const About: React.FC = () => {
         Within the realm of computer science, I'm primarily interested in software development. 
         I value writing scalable and maintainable code, especially for large systems.
         <br/><br/>
-        When I'm not coding, catch me at a bouldering gym, hiking in the mountains, playing Genshin Impact, or vibing at a rave!
+        When I'm not coding, catch me at a bouldering gym, playing Genshin Impact, or vibing at a rave!
         <br/><br/>
         ❤
       </p>

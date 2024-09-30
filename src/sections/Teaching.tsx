@@ -8,7 +8,7 @@ const Teaching: React.FC = () => {
       'course': 'CS 4500',
       'position': 'Section Teaching Assistant',
       'duration': '09-2024 — 12-2024',
-      'description': 'TBA'
+      'description': 'Reviewed student code walks, graded assignments'
     },
     {
       'course': 'CS 1210',

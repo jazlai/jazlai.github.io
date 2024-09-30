@@ -1,7 +1,7 @@
 import { css } from '@emotion/react';
 
 export const appBackground = css({
-  background: 'linear-gradient(to bottom, #fffbf2, #cfe9ff)',
+  background: 'F4F3F2',
   height: '100vh',
   width: '100vw',
   display: 'flex',
@@ -14,7 +14,7 @@ export const appBackground = css({
 export const appContainer = css({
   height: '500px',
   width: '1000px',
-  maxHeight: '60vh',
+  maxHeight: '50vh',
   maxWidth: '60vw',
   display: 'flex',
   flexDirection: 'column',

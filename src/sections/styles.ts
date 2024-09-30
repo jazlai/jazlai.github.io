@@ -1,5 +1,11 @@
 import { css } from '@emotion/react'
 
+export const homepage = css({
+  a: {
+    textDecoration: 'none',
+  },
+});
+
 export const experienceList = css({
   height: '40vh',
   maxHeight: '100%',
