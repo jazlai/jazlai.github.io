@@ -11,7 +11,7 @@ const Home: React.FC = () => {
         I'm currently...
           <ul>
             <li>Finishing my last undergraduate semester in Boston</li>
-            <li>TAing for <a href="https://felleisen.org/matthias/4500-f24/">Software Development</a></li>
+            <li>TAing for <a href="https://felleisen.org/matthias/4500-f24/" target='_blank' rel='noopener noreferrer'>Software Development</a></li>
           </ul>
         <br/>
         I'm looking forward to...
