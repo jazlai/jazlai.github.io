@@ -3,6 +3,11 @@ import { css } from '@emotion/react'
 export const homepage = css({
   a: {
     textDecoration: 'none',
+    color: '#614fa1',
+    fontWeight: 500,
+    '&:hover': {
+      color: '#473582',
+    }
   },
 });
 
