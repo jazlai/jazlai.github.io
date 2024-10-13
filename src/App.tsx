@@ -55,7 +55,7 @@ const App: React.FC = () => {
         <a href='https://github.com/jasmine-lai' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none', color: 'inherit' }}>
           <FontAwesomeIcon icon={faGithub} css={contactIcon}  />
         </a>
-        <a href='/resume.pdf' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none', color: 'inherit' }}>
+        <a href='/Jasmine_Lai_Resume.pdf' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none', color: 'inherit' }}>
           <FontAwesomeIcon icon={faFile} css={contactIcon} />
         </a>
      </div>
