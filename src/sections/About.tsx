@@ -31,7 +31,7 @@ const About: React.FC = () => {
         <a href='https://github.com/jasmine-lai' target='_blank' rel='noopener noreferrer' css={contact}>
           GitHub
         </a>
-        <a href='/Jasmine_Lai_Resume.pdf' target='_blank' rel='noopener noreferrer' css={contact}>
+        <a href='/JasmineLai_Resume.pdf' target='_blank' rel='noopener noreferrer' css={contact}>
           Resume
         </a>
       </div>
