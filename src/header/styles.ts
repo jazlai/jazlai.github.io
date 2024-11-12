@@ -1,7 +1,7 @@
 import { css } from '@emotion/react';
 
 export const headerName = css({
-  fontSize: '50px',
+  fontSize: '40px',
   fontWeight: '500',
 
   "@media (max-width: 700px)": {
@@ -15,7 +15,7 @@ export const headerName = css({
 
 export const navBar = css({
   marginTop: 'auto',
-  paddingBottom:  '8px',
+  paddingBottom:  '6px',
 });
 
 export const navItem = css({

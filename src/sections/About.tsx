@@ -1,19 +1,40 @@
+/** @jsxImportSource @emotion/react */
 import React from 'react';
+
+import { contact } from './styles';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons'
 
 const About: React.FC = () => {
   return (
     <div>
       <p>
-        Hey! I'm Jasmine. I'm originally from Boston, Massachusetts. I graduated from Northeastern University in 2024 with a B.S. in Computer Science 
-        and I plan on completing a M.S. in Computer Science in 2025.
+        Hey! I'm Jasmine. I'm originally from Boston, soon to be located in Seattle. I graduated with a B.S. in computer science 
+        from Northeastern University in 2024.
         <br/><br/>
         Within the realm of computer science, I'm primarily interested in software development. 
-        I value writing scalable and maintainable code, especially for large systems.
+        I value writing scalable and maintainable code, and I enjoy solving interesting problems. 
         <br/><br/>
         When I'm not coding, catch me at a bouldering gym, playing Genshin Impact, or vibing at a rave!
         <br/><br/>
         ❤
       </p>
+      <div>
+        <a href='mailto:lai.jas@northeastern.edu' target='_blank' rel='noopener noreferrer' css={contact}>
+          Contact
+        </a>
+        <a href='https://linkedin.com/in/jasminelai03/' target='_blank' rel='noopener noreferrer' css={contact}>
+          LinkedIn
+        </a>
+        <a href='https://github.com/jasmine-lai' target='_blank' rel='noopener noreferrer' css={contact}>
+          GitHub
+        </a>
+        <a href='/Jasmine_Lai_Resume.pdf' target='_blank' rel='noopener noreferrer' css={contact}>
+          Resume
+        </a>
+      </div>
     </div>
   );
 }

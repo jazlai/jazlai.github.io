@@ -6,7 +6,7 @@ const Home: React.FC = () => {
   return (
     <div css={homepage}>
       <p>
-        I'm a fourth-year student at Northeastern University studying computer science with a concentration in software development. 
+        I'm a fourth-year student at Northeastern University studying computer science. 
         <br/><br/>
         I'm currently...
           <ul>
@@ -17,6 +17,7 @@ const Home: React.FC = () => {
         I'm looking forward to...
           <ul>
             <li>Graduating in fall 2024!</li>
+            <li>Working at Snap as a full time software engineer in Seattle</li>
           </ul>
       </p>
     </div>

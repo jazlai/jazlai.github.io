@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import React from 'react';
 
-import { appBackground, appContainer, contactIcon, headerContainer, sectionContainer } from './styles';
+import { appBackground, appContainer, headerContainer, sectionContainer } from './styles';
 import { useSectionContext } from './context/SectionProvider';
 
 import Name from './header/Name';
@@ -10,10 +10,6 @@ import Home from './sections/Home';
 import About from './sections/About';
 import Experience from './sections/Experience';
 import Teaching from './sections/Teaching';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons'
 
 const App: React.FC = () => {
   const { activeSection } = useSectionContext();
@@ -45,20 +41,6 @@ const App: React.FC = () => {
           {renderSection()}
         </div>
       </div>
-      <div>
-        <a href='mailto:lai.jas@northeastern.edu' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none', color: 'inherit' }}>
-          <FontAwesomeIcon icon={faEnvelope} css={contactIcon} />
-        </a>
-        <a href='https://linkedin.com/in/jasminelai03/' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none', color: 'inherit' }}>
-          <FontAwesomeIcon icon={faLinkedin} css={contactIcon} />
-        </a>
-        <a href='https://github.com/jasmine-lai' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none', color: 'inherit' }}>
-          <FontAwesomeIcon icon={faGithub} css={contactIcon}  />
-        </a>
-        <a href='/Jasmine_Lai_Resume.pdf' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none', color: 'inherit' }}>
-          <FontAwesomeIcon icon={faFile} css={contactIcon} />
-        </a>
-     </div>
     </div>
   );
 }

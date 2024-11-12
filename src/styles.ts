@@ -5,32 +5,32 @@ export const appBackground = css({
   height: '100vh',
   width: '100vw',
   display: 'flex',
-  justifyContent: 'center',
   alignItems: 'center',
   flexDirection: 'column',
   overflow: 'hidden',
 });
 
 export const appContainer = css({
-  height: '500px',
   width: '1000px',
-  maxHeight: '50vh',
-  maxWidth: '60vw',
+  maxWidth: '50vw',
   display: 'flex',
   flexDirection: 'column',
   padding: '20px',
+  paddingTop: '0px',
+  marginTop: '30px',
 
   "@media (max-width: 600px)": {
-    maxHeight: '75vh',
     maxWidth: '75vw',
   },
 });
 
 export const headerContainer = css({
-  maxWidth: '100%',
+  maxWidth: '60vw',
   display: 'flex',
   flexDirection: 'row',
+  alignContent: 'flex-start',
   gap: '2vw',
+  marginTop: '3vw',
 
   "@media (max-width: 1000px)": {
     flexDirection: 'column',
@@ -38,16 +38,10 @@ export const headerContainer = css({
 });
 
 export const sectionContainer = css({
-  height: '100%',
-  maxHeight: '100%',
+  maxWidth: '60vw',
   padding: '10px',
 
   "@media (max-width: 600px)": {
     overflow: 'auto',
   },
-});
-
-export const contactIcon = css({
-  margin: '20px',
-  marginTop: '10px',
 });

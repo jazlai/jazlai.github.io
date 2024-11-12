@@ -4,16 +4,21 @@ export const homepage = css({
   a: {
     textDecoration: 'none',
     color: '#614fa1',
-    //fontWeight: 500,
+    fontWeight: '450',
     '&:hover': {
       color: '#473582',
     }
   },
 });
 
+export const contact = css({
+  marginRight: '10px',
+  textDecoration: 'none',
+  color: '#614fa1',
+  fontWeight: '450',
+});
+
 export const experienceList = css({
-  height: '40vh',
-  maxHeight: '100%',
   paddingTop: '10px',
   marginBottom: '20px',
   listStyleType: 'none',
