@@ -28,7 +28,7 @@ const About: React.FC = () => {
         <a href='https://linkedin.com/in/jasminelai03/' target='_blank' rel='noopener noreferrer' css={contact}>
           LinkedIn
         </a>
-        <a href='https://github.com/jasmine-lai' target='_blank' rel='noopener noreferrer' css={contact}>
+        <a href='https://github.com/jazlai' target='_blank' rel='noopener noreferrer' css={contact}>
           GitHub
         </a>
         <a href='/JasmineLai_Resume.pdf' target='_blank' rel='noopener noreferrer' css={contact}>
