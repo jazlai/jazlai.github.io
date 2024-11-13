@@ -11,7 +11,7 @@ const About: React.FC = () => {
   return (
     <div>
       <p>
-        Hey! I'm Jasmine. I'm originally from Boston, soon to be living in Seattle. I graduated with a B.S. in computer science 
+        Hey! I'm Jasmine. I'm originally from Boston. I am graduating with a B.S. in computer science 
         from Northeastern University in 2024.
         <br/><br/>
         Within the realm of computer science, I'm primarily interested in software development. 
