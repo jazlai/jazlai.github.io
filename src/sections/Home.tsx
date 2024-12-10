@@ -17,7 +17,7 @@ const Home: React.FC = () => {
         I'm looking forward to...
           <ul>
             <li>Graduating in fall 2024!</li>
-            <li>Working at Snap as a full time software engineer</li>
+            <li>Working at Google as a full time software engineer</li>
           </ul>
       </p>
     </div>

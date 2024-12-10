@@ -7,9 +7,9 @@ const Experience: React.FC = () => {
   const { setActiveSection } = useSectionContext();
   const experiences = [
     {
-      'company': 'Snap Inc',
+      'company': 'Google',
       'position': 'Software Engineer',
-      'duration': '07-2025 ',
+      'duration': '02-2025 ',
     },
     {
       'company': 'Snap Inc',
