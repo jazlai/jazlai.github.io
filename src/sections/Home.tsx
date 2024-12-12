@@ -10,14 +10,12 @@ const Home: React.FC = () => {
         <br/><br/>
         I'm currently...
           <ul>
-            <li>Finishing my last undergraduate semester in Boston</li>
-            <li>TAing for <a href="https://felleisen.org/matthias/4500-f24/" target='_blank' rel='noopener noreferrer'>Software Development</a></li>
+            <li>Traveling and spending time with family post grad</li>
           </ul>
         <br/>
         I'm looking forward to...
           <ul>
-            <li>Graduating in fall 2024!</li>
-            <li>Working at Google as a software engineer</li>
+            <li>Joining Google as a software engineer</li>
           </ul>
       </p>
     </div>
