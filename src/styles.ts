@@ -11,7 +11,8 @@ export const appBackground = css({
 });
 
 export const appContainer = css({
-  maxWidth: '600px',
+  width: '550px',
+  maxWidth: '550px',
   display: 'flex',
   flexDirection: 'column',
   padding: '20px',
