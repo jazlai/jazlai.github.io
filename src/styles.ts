@@ -11,34 +11,34 @@ export const appBackground = css({
 });
 
 export const appContainer = css({
-  width: '550px',
-  maxWidth: '550px',
+  width: '510px',
+  maxWidth: '510px',
   display: 'flex',
   flexDirection: 'column',
   padding: '20px',
   paddingTop: '0px',
   marginTop: '30px',
+  //backgroundColor: 'aqua',
 
   "@media (max-width: 600px)": {
-    maxWidth: '75vw',
+    maxWidth: '70vw',
   },
 });
 
 export const headerContainer = css({
-  maxWidth: '60vw',
   display: 'flex',
   flexDirection: 'row',
   alignContent: 'flex-start',
   gap: '2vw',
   marginTop: '3vw',
 
-  "@media (max-width: 1000px)": {
+  "@media (max-width: 700px)": {
     flexDirection: 'column',
   },
 });
 
 export const sectionContainer = css({
-  maxWidth: '60vw',
+  maxWidth: '480px',
   padding: '10px',
 
   "@media (max-width: 600px)": {
