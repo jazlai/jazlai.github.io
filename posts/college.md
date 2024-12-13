@@ -1,0 +1,24 @@
+12-2024
+
+As my favorite professor likes to say, every now and then during life, one should "stop, drop, and reflect". As I am currently in between having just graduated and about to begin my venture into industry as a full-time software engineer, there is no better time than now.
+
+I entered Northeastern University as an innocent, wide-eyed first year in September 2021. Having grown up not too far outside of Boston, I never imagined I would be going to college so close by. My goal back then was to get as far away from home as I could (a goal I no longer have, but somehow still achieved). Ultimately, I could not be any more grateful that I ended up at this school, as I would not be the person I am today without it.
+
+College is about learning. Learning a discipline, learning a set of skills, and learning who you are. In this reflection, I will focus on the first two, although the third has by far been the most impactful in changing, and improving, my life. Unfortunately, that process is so individual to each person that my thoughts will not be as helpful as I would like them to be, but it's a process I think every person should (and will) go through.
+
+#### Technical Takeaways
+
+When I began applying to college, I decided to major in computer science. I had little experience programming in comparison to many of my peers, with only AP CS under my belt, but enough to know that I enjoyed using code to solve problems. When I received an email asking if I would be interested in taking an 'accelerated' version of the Fundamentals (fundies) I course (with the only recommendation being 'any' previous coding experience), I decided to go for it. Fundies I and II were such rewarding experiences that, although difficult, undoubtedly solidified my decision to study computer science. I had never felt such a strong grasp of any technical material before. Systematic design, as taught by the accel courses, captivated the logical and problem-solving parts of my brain. It was the perfect extension to my initial exposure to programming during high school: a simplified version of systematic thinking taught to me by my mom (at my request since I was dissatisfied with how my high school taught CS). OOD and Software Development (Fundies III and IV) provided the opportunity to put my skills to the test while developing larger and more complex systems, and I learned how to evaluate the strength of code using metrics other than "it's fast" and "it works" (often neither of which are completely true). It's truly a shame for current and future students that this curriculum will no longer exist as it was originally designed.
+
+Apart from the core curriculum, there were a handful of courses I enjoyed for their content, even as someone who is self-proclaimed to be "not actually that interested in her own major". Notably,
+
+- Algorithms — the most conceptually difficult course I took, but it taught me to *think*
+- Principles of Programming Languages — exposed me to an area of information and research I had no idea existed before, but that I will pursue learning more about on my own time as I begin working
+
+#### Social Takeaways
+
+Although college is useful for learning *information* related to one's chosen discipline, equally (and as I believe, more) important than that is learning the *skills* required to be successful in not only one's career, but life in general. This felt especially true to me as a CS major, where I felt that having real industry experience (via co-ops and internships) taught me much more than the classes I had taken prior to working. Industry practices are often much more modern than what is taught in a standard college lecture. However, without my class experience, I would not have been as successful while working as I was.
+
+Responsibility, accountability, advocacy, are just a few of the many traits that I actively and consciously worked on during my college years. The idea of reaching out for help, such as asking for an extension on an assignment I was stressed about (only because I had procrastinated on it), seemed impossible a few years ago. There is no such thing as undeserved help, if you are honest and ask for it. That idea ties in nicely to the lesson of advocacy as well: learning to advocate for yourself in front of others, whether it be a professor, peer, employer, or even you.
+
+Possibly the most important lesson to take away from college, applicable regardless of discipline, interest, etc. is navigating relationships, both personal and professional. The latter is self-explanatory (and infinitely important for success), but the former can be easily overlooked (and I certainly did at first). I have learned so much from the people around me, and I would not be where I am today if not for the support of my friends and family. You are who you surround yourself with, and as such, I will continue to develop relationships with people I respect and admire.
