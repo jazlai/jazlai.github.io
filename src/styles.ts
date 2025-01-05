@@ -11,14 +11,13 @@ export const appBackground = css({
 });
 
 export const appContainer = css({
-  width: '510px',
-  maxWidth: '510px',
+  width: '570px',
+  maxWidth: '570px',
   display: 'flex',
   flexDirection: 'column',
   padding: '20px',
   paddingTop: '0px',
   marginTop: '30px',
-  //backgroundColor: 'aqua',
 
   "@media (max-width: 600px)": {
     maxWidth: '70vw',
@@ -38,7 +37,7 @@ export const headerContainer = css({
 });
 
 export const sectionContainer = css({
-  maxWidth: '480px',
+  maxWidth: '550px',
   padding: '10px',
 
   "@media (max-width: 600px)": {
