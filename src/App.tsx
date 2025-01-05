@@ -10,6 +10,7 @@ import Home from './sections/Home';
 import About from './sections/About';
 import Experience from './sections/Experience';
 import Teaching from './sections/Teaching';
+import Blog from './sections/Blog';
 
 const App: React.FC = () => {
   const { activeSection } = useSectionContext();
