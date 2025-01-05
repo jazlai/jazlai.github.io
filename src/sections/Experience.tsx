@@ -9,7 +9,7 @@ const Experience: React.FC = () => {
     {
       'company': 'Google',
       'position': 'Software Engineer',
-      'duration': '02-2025 ',
+      'duration': '03-2025 ',
     },
     {
       'company': 'Snap Inc',
