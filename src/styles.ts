@@ -11,7 +11,7 @@ export const appBackground = css({
 });
 
 export const appContainer = css({
-  maxWidth: '510px',
+  width: '510px',
   display: 'flex',
   flexDirection: 'column',
   padding: '20px',
@@ -36,7 +36,7 @@ export const headerContainer = css({
 });
 
 export const sectionContainer = css({
-  maxWidth: '500px',
+  width: '460px',
   padding: '10px',
 
   "@media (max-width: 600px)": {
