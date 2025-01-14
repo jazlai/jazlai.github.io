@@ -10,6 +10,7 @@ const linkProps = {
 }
 
 export const homepage = css({
+  paddingLeft: '5px',
   a: {
     ...linkProps
   },
