@@ -1,16 +1,14 @@
 /** @jsxImportSource @emotion/react */
 import React from 'react';
 
-import { appBackground, appContainer, headerContainer, sectionContainer } from './styles';
+import { appBackground, appContainer, sectionContainer } from './styles';
 import { useSectionContext } from './context/SectionProvider';
 
-import Name from './header/Name';
-import Nav from './header/Nav';
+import Header from './header/Header';
 import Home from './sections/Home';
 import About from './sections/About';
 import Experience from './sections/Experience';
 import Teaching from './sections/Teaching';
-import Blog from './sections/Blog';
 
 const App: React.FC = () => {
   const { activeSection } = useSectionContext();
@@ -32,12 +30,7 @@ const App: React.FC = () => {
   return (
     <div css={appBackground}>
       <div css={appContainer}>
-        <div css={headerContainer}>
-          <Name />
-          <Nav 
-            sections={tabs}
-          />
-        </div>
+        <Header sections={tabs} />
         <div css={sectionContainer}>
           {renderSection()}
         </div>

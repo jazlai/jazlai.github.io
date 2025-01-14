@@ -1,21 +1,35 @@
 import { css } from '@emotion/react'
 
-export const homepage = css({
-  a: {
-    textDecoration: 'none',
-    color: '#614fa1',
-    fontWeight: '450',
-    '&:hover': {
-      color: '#473582',
-    }
-  },
-});
-
-export const contact = css({
-  marginRight: '10px',
+const linkProps = {
   textDecoration: 'none',
   color: '#614fa1',
   fontWeight: '450',
+  '&:hover': {
+    color: '#473582',
+  }
+}
+
+export const homepage = css({
+  a: {
+    ...linkProps
+  },
+});
+
+export const about = css({
+  display: 'flex',
+  flexDirection: 'column',
+  paddingLeft: '5px',
+
+  "@media (max-width: 700px)": {
+    paddingLeft: '0px',
+  },
+});
+
+export const contactLinks = css({
+  a: {
+    marginRight: '10px',
+    ...linkProps
+  },
 });
 
 export const experienceList = css({
@@ -24,7 +38,7 @@ export const experienceList = css({
   listStyleType: 'none',
   overflow: 'auto',
 
-  "@media (max-width: 600px)": {
+  "@media (max-width: 700px)": {
     marginLeft: '-40px',
   },
 });

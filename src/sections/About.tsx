@@ -1,11 +1,11 @@
 /** @jsxImportSource @emotion/react */
 import React from 'react';
 
-import { contact } from './styles';
+import { about, contactLinks } from './styles';
 
 const About: React.FC = () => {
   return (
-    <div>
+    <div css={about} >
       <p>
         Hey! I'm Jasmine. I'm from Boston, soon to be living in the bay. I graduated with a B.S. in computer science 
         from Northeastern University in 2024.
@@ -17,17 +17,17 @@ const About: React.FC = () => {
         <br/><br/>
         ❤
       </p>
-      <div>
-        <a href='mailto:lai.jas@northeastern.edu' target='_blank' rel='noopener noreferrer' css={contact}>
+      <div css={contactLinks}>
+        <a href='mailto:lai.jas@northeastern.edu' target='_blank' rel='noopener noreferrer' >
           Contact
         </a>
-        <a href='https://linkedin.com/in/jasminelai03/' target='_blank' rel='noopener noreferrer' css={contact}>
+        <a href='https://linkedin.com/in/jasminelai03/' target='_blank' rel='noopener noreferrer' >
           LinkedIn
         </a>
-        <a href='https://github.com/jazlai' target='_blank' rel='noopener noreferrer' css={contact}>
+        <a href='https://github.com/jazlai' target='_blank' rel='noopener noreferrer' >
           GitHub
         </a>
-        <a href='/JasmineLai_Resume.pdf' target='_blank' rel='noopener noreferrer' css={contact}>
+        <a href='/JasmineLai_Resume.pdf' target='_blank' rel='noopener noreferrer' >
           Resume
         </a>
       </div>

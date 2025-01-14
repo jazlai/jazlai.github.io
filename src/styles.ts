@@ -11,35 +11,29 @@ export const appBackground = css({
 });
 
 export const appContainer = css({
-  width: '510px',
+  maxWidth: '500px',
+  width: '100%',
   display: 'flex',
   flexDirection: 'column',
-  padding: '20px',
-  paddingTop: '0px',
+  padding: '10px',
   marginTop: '30px',
-
-  "@media (max-width: 600px)": {
-    maxWidth: '70vw',
-  },
-});
-
-export const headerContainer = css({
-  display: 'flex',
-  flexDirection: 'row',
-  alignContent: 'flex-start',
-  gap: '2vw',
-  marginTop: '3vw',
+  //backgroundColor: 'aqua',
 
   "@media (max-width: 700px)": {
-    flexDirection: 'column',
+    maxWidth: '70vw',
+  },
+
+  "@media (max-width: 500px)": {
+    maxWidth: '80vw',
   },
 });
 
 export const sectionContainer = css({
-  width: '460px',
+  display: 'flex',
   padding: '10px',
+  //backgroundColor: 'green',
 
-  "@media (max-width: 600px)": {
-    overflow: 'auto',
+  "@media (max-width: 700px)": {
+    paddingLeft: '0px',
   },
 });

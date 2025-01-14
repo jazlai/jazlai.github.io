@@ -3,11 +3,11 @@ import React from 'react';
 import { navBar, navItem } from './styles';
 import { useSectionContext } from '../context/SectionProvider';
 
-interface Props {
+export interface NavProps {
   sections: string[];
 }
 
-const Nav: React.FC<Props> = ({ sections }) => {
+const Nav: React.FC<NavProps> = ({ sections }) => {
   const { setActiveSection } = useSectionContext();
   
   return (
