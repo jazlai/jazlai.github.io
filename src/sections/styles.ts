@@ -14,6 +14,10 @@ export const homepage = css({
   a: {
     ...linkProps
   },
+
+  "@media (max-width: 700px)": {
+    paddingLeft: '0px',
+  },
 });
 
 export const about = css({
