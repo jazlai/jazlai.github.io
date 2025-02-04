@@ -8,7 +8,7 @@ const About: React.FC = () => {
     <div css={about} >
       <p>
         Hey! I'm Jasmine. I'm from Boston, soon to be living in the bay. I graduated with a B.S. in computer science 
-        from Northeastern University in 2024.
+        from Northeastern University (co2025).
         <br/><br/>
         Within the realm of computer science, I'm primarily interested in software development. 
         I value writing scalable and maintainable code, and I enjoy solving interesting problems. 
