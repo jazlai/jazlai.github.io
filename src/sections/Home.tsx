@@ -10,12 +10,13 @@ const Home: React.FC = () => {
         <br/><br/>
         I'm currently...
           <ul>
-            <li>Traveling and spending time with family post grad</li>
+            <li>Play-ing at Google</li>
+            <li>Embracing my identity as a bay area transplant</li>
           </ul>
         <br/>
         I'm looking forward to...
           <ul>
-            <li>Joining Google as a software engineer</li>
+            <li>Next snowboarding season</li>
           </ul>
       </p>
     </div>
